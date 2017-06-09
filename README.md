@@ -14,7 +14,7 @@ The digital differential pressure sensors of the SDP8xx and SDP 3x series provid
 
 The base of these sensors is a miniature heating element and two temperature sensors. Difference of pressures will cause a small air flow through a component and it will cause a temperature difference in these built-in sensors. Temperature difference is directly depending on the amount (weight) of air flowing through a sensor and it naturally depends just on a pressure difference. A great advantage against membrane pressure sensors is a long-term high accuracy even at measuring of small pressure and maintaining of accuracy of a “zero point”.
 # Compatibility
-To make this library compatible with other MCUs the functions sdp.sendCommand() and sdp.readSequence() would have to be adapted, the rest of the library is hardware agnostic. These functions work as a sort of hardware abstraction layer.
+This library works as is with Arduino and Teensy boards. To make this library compatible with other MCUs the functions sdp.sendCommand() and sdp.readSequence() would have to be adapted, the rest of the library is hardware agnostic. These functions work as a sort of hardware abstraction layer.
 
 # How to use
 Declaration of object of the SDPclass:
