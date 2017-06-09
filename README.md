@@ -1,8 +1,8 @@
 # Library for Sensirion SDP 3x and 8xx differential pressure sensors
 
 This is a library for the digital variants of Sensirion SDP sensors. This library has been tested with the SDP810 but should work with the following sensors:
-- SDP31
-- SDP32
+- SDP31 (500Pa)
+- SDP32 (125Pa)
 - SDP800 - 500Pa    
 - SDP800 - 125Pa
 - SDP810 - 500Pa
@@ -88,7 +88,8 @@ From this point onwards the object used will have the name **sdp**.
 - param - none
 - return - none
 
-
+# Debug and Verbose modes
+Through uncommenting the *#defines* for DEBUG and VERBOSE we can have serial output for inner working and errors.
 
 **();** -
 - param -
