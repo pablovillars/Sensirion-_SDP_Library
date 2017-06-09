@@ -1,0 +1,40 @@
+#######################################
+# Syntax Coloring Map For SDP library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SDPclass KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getAddress	KEYWORD2
+getProductId	KEYWORD2
+getSerialNumber	KEYWORD2
+begin 	KEYWORD2
+startContinuousMeasurement 	KEYWORD2
+stopContinuousMeasurement 	KEYWORD2
+getTemperatureTrigger 	KEYWORD2
+getDiffPressureTrigger	KEYWORD2
+getTemperature	KEYWORD2
+getOnlyTemperature	KEYWORD2
+getDiffPressure	KEYWORD2
+getDiffPressure	KEYWORD2
+getDiffPressure	KEYWORD2
+softReset	KEYWORD2
+enterSleep	KEYWORD2
+exitSleep	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SDP_TEMPCOMP_MASS_FLOW LITERAL1
+SDP_TEMPCOMP_DIFFERENTIAL_PRESSURE LITERAL1
+SDP_AVERAGING_NONE  LITERAL1
+SDP_AVERAGING_TILL_READ LITERAL1
+SDP_CLKST_NONE LITERAL1
+SDP_CLKST_ACTIVE LITERAL1

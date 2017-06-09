@@ -21,6 +21,7 @@ Declaration of object of the SDPclass:
 ```sh
 SDPclass sdp;
 ```
+From this point onwards the object used will have the name **sdp**.
 
 **sdp.getAddress();** - Searches the i2c address of the sensor, other sensors connected to the same port will be shown as well.
 - param - none
